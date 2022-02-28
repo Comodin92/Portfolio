@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.presentacion_general {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.presentacion_derecha h2 {
+  font-size: 1em;
+  text-align: center;
+  color: #000;
+}
+
+.presentacion_derecha p {
+  font-size: 20px;
+}
+.presentacion_derecha h2 span {
+  font-size: 1em;
+}
+
+.presentacion_derecha {
+  width: 50%;
+  text-align: center;
+}
+.presentacion_derecha a {
+  text-decoration: none;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+  text-align: end;
+}
+
+.Presentacion_centro {
+  width: 50%;
+  text-align: center;
+}
+.Presentacion_centro div img {
+  width: 70%;
+}
+
+.conocimientos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenedor_conocimientos {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  background-color: crimson;*/
+}
+
+.conocimientos .cajaSuprema {
+  position: relative;
+  width: 45%;
+  /*height: 400px;*/
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.conocimientos:hover .cajaSuprema {
+  opacity: 0.2;
+}
+
+.conocimientos:hover .cajaSuprema:hover {
+  opacity: 1;
+}
+
+.conocimientos .cajaSuprema .contenidoCaja {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #6d62ff;
+
+  /* text-align: center;*/
+}
+
+.conocimientos .cajaSuprema .contenidoCaja h2 {
+  right: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+}
+.contenidoCaja img {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.conocimientos .cajaSuprema:hover .contenidoCaja h2 {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+.conocimientos .cajaSuprema .contenidoCaja h3 {
+  position: relative;
+  font-size: 1em;
+  color: seashell;
+  z-index: 2;
+  opacity: 0.5s;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+.conocimientos .cajaSuprema:hover .contenidoCaja h3 {
+  opacity: 1;
+}
+
+.conocimientos .cajaSuprema .contenidoCaja p {
+  /*position: relative;*/
+  text-align: left;
+  font-size: 1em;
+  color: seashell;
+  z-index: 2;
+  opacity: 0.5;
+  font-weight: 300;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.conocimientos .cajaSuprema:hover .contenidoCaja h3,
+.conocimientos .cajaSuprema:hover .contenidoCaja p {
+  opacity: 1;
+}
+
+.conocimientos .cajaSuprema .contenidoCaja a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background: seashell;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.conocimientos .cajaSuprema span {
+  transition: 0.5;
+  opacity: 0;
+}
+
+.conocimientos .cajaSuprema:hover span {
+  opacity: 1;
+}
+
+.proyectos {
+  display: flex;
+}
+.conocimientos .cajaSuprema span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #1779ff);
+  animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.conocimientos .cajaSuprema span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #1779ff);
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.conocimientos .cajaSuprema span:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to left, transparent, #1779ff);
+  animation: animate3 2s linear infinite;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.conocimientos .cajaSuprema span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to top, transparent, #1779ff);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate4 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.CodoaCodo {
+  height: 600px;
+}

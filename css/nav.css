@@ -1,0 +1,20 @@
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+ol li {
+  list-style: none;
+  margin: 15px;
+  color: lightcyan;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+ol a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}

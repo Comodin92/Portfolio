@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Footer_contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+
+  /*min-height: 100vh;
+    max-width: 50%;*/
+}
+
+ul {
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li a .fa {
+  font-size: 3em;
+  color: #b69393;
+  padding-top: 11px;
+}
+
+ul li::before {
+  font-family: fontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 3em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+ul li:nth-child(1)::before {
+  content: "\f092";
+  color: #000000;
+  border-bottom: 4px solid #000000;
+}
+
+ul li:nth-child(2)::before {
+  content: "\f08c";
+  color: #1da1f2;
+  border-bottom: 4px solid #1da1f2;
+}
+
+ul li:nth-child(3)::before {
+  content: "\f199";
+  color: #e20000;
+  border-bottom: 4px solid #e20000;
+}
+
+ul li:hover::before {
+  height: 100%;
+}
+.animacionesFront img,
+.animacionesBack img,
+.animacionesDise img {
+  width: 50%;
+}
+/*Logos de lenguajes de programacion */
+
+.imagenLogo {
+  width: 46%;
+}
+
+.imagenLogo {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+}
+
+.cajaSkills img:hover {
+  filter: grayscale(1%);
+}
+
+.cajaSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorFrontAnim {
+  display: flex;
+  background-color: #eaeaea;
+}
+
+.frontend,
+.backend,
+.diseno {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.frontend img,
+.backend img,
+.diseno img {
+  width: 50%;
+  align-items: center;
+  /*padding: 5px;*/
+}
+.backend h3,
+.frontend h3,
+.diseno h3 {
+  /* font-family: "Festive", cursive;*/
+
+  font-family: "Roboto", sans-serif;
+}
+.diseno {
+  display: flex;
+  width: 50%;
+
+  align-items: center;
+}
+.animacionesFront {
+  width: 50%;
+  margin: 50px;
+}
+.animacionesBack {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.detalleFront li {
+  text-decoration: none;
+  list-style: none;
+}
+.animaciones img {
+  width: 80%;
+}
+
+.frontend {
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedorBackAnim {
+  display: flex;
+  background-color: #d5dfed;
+}
+
+.contenedorDiseñoAnim {
+  display: flex;
+  background-color: #eaeaea;
+}
+.logoHtmlText,
+.logoCSSText,
+.logoBootstrapText,
+.logoJavasCript,
+.logoJquery {
+  width: 33%;
+  text-align: center;
+}
+.logoHtmlText img,
+.logoCSSText img,
+.logoBootstrapText img {
+  width: 35%;
+  text-align: center;
+}
+.backend {
+  width: 50%;
+  align-items: center;
+}
+.backend img {
+  width: 31%;
+}
+
+.logoc,
+.logoPython,
+.logoJava,
+.logoMySql {
+  width: 33%;
+  text-align: center;
+}
+
+.imagenLogo {
+  width: 50%;
+}
+
+.animacionesDise {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+.animacionesDise img {
+  width: 50%;
+}
+
+.logoPhotoshop,
+.logoIllustrator,
+.logoFigma {
+  width: 31%;
+  text-align: center;
+}
+.logoPhotoshop img,
+.logoIllustrator img,
+.logoFigma img {
+  width: 35%;
+}
+
+.logosGeneral {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tituloTecno {
+  font-family: "Nunito", sans-serif;
+  font-size: 3em;
+}

@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+footer{
+    display: flex;
+    background: black;
+}
+.pacman{
+    display: inline-block; 
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#F1D76B,#F1C71C);
+    border-radius: 50%;
+    position: relative;
+}
+
+.pacman .ojo{
+
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: black;
+    border-radius: 50%;
+    top: 20px;
+    right: 25px;
+}
+
+.boca{
+
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 30px solid transparent;
+    border-right: 45px solid black;
+    top: 25px;
+    right: 0;
+}
+.cajaPacman{
+    width: 10%;
+    animation: final__moveForward 5s linear infinite;
+     animation-delay: 0.8s;
+}
+
+.pelotaGrande{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    box-shadow: 0 0 20px chocolate;
+
+}
+
+
+
+.cajaPelotas{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    background: 
+}
+
+.pelotita{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    box-shadow: 0 0 20px chocolate;
+    
+
+}
