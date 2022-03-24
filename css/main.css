@@ -237,3 +237,76 @@
 .CodoaCodo {
   height: 600px;
 }
+
+
+.cajaProyectos{
+
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#000;
+  width: 100%;
+  justify-content: space-around;
+
+}
+
+.caja1, .caja2, .caja3, .caja4{
+  width: 35%;
+  height: 200px;
+  color: #1779ff;
+  background-color: aliceblue;
+  border-radius: 1px solid #fff;
+  margin: 10px;
+}
+
+
+.miniaturaProyecto{
+  width: 85%;
+  height: 140px;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.miniaturaProyecto img{
+
+  width: 100%;
+  height: 140px;
+  border-radius: 5%;
+  padding-bottom: 10px;
+}
+.descripcionProyecto{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.verMas{
+  width: 20%;
+  margin-left: 7%;
+  margin-right: 5px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5%;
+  text-align: center;
+}
+
+
+.detalleTecnologias{
+
+  width: 60%;
+  margin-left: 4%;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5%;
+  text-align: center;
+  height: 40px;
+}
+
+.botonLink{
+
+  text-decoration: none;
+}

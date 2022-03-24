@@ -1,8 +1,8 @@
 ol {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
 }
 
 ol li {
@@ -10,7 +10,9 @@ ol li {
   margin: 15px;
   color: lightcyan;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
+  width: 20%;
+  background-color: aqua;
 }
 
 ol a {

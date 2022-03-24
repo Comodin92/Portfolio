@@ -1,0 +1,81 @@
+/*Tablet vertical*/
+@media screen and (min-width: 768px) and (max-width: 1024px ) {
+
+    
+        main{
+            background-color: aquamarine;
+        }
+     
+}
+
+/*Celular*/
+@media screen and (max-width: 768px){
+    body{
+        background-color: black;
+
+    }
+    .presentacion_general, .cajaSkills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contenedorFrontAnim {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Footer_contenedor {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .contenedorBackAnim {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedorDiseñoAnim {
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Front, Back, Dise*/
+    .tituloTecno {
+        font-family: "Nunito", sans-serif;
+        font-size: 1em;
+        color: aliceblue;
+    }
+    /*CSS, HTML, JS, ETC*/
+    .backend h3, .frontend h3, .diseno h3{ 
+
+        font-size: 12px;
+        color: aliceblue;
+    }
+    .animacionesFront, .animacionesBack, 
+    .animacionesDise{ /*Ocultamos los arhivos en formato celular*/
+
+        display: none;
+    }
+    .logosGeneral{
+        margin: auto;
+    }
+
+    .presentacion_derecha {
+        width: 100%;
+        background-color: aqua;
+    }
+    .presentacion_derecha a{/*DECARGAR CV*/
+
+        font-size: 1em;
+    }
+    .Footer_contenedor,.presentacion_derecha,.presentacion_general, .contenedorFrontAnim,
+    .contenedorBackAnim,.contenedorDiseñoAnim {
+        background-color: black;
+    }
+
+
+    /*Letras blancas*/
+    .presentacion_derecha p, .presentacion_derecha h2 span{
+        color: aliceblue;
+    }
+}
