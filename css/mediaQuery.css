@@ -93,4 +93,20 @@
     .detalleTecnologias img{
         width: 10%;
     }
+    .backend, .frontend, .diseno{
+        width: 100%;
+    }
+    /*sacamos el efecto de escala de grises, ahora son de colores*/
+    .imagenLogo {
+        filter: grayscale(0%);
+    }
+    .logoJavasCript img{
+
+        width: 35%;
+    }
+    .logosGeneral {
+        align-items: center;
+        justify-content: space-between;
+    }
+    
 }
