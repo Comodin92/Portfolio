@@ -2,8 +2,9 @@
         strings: [
                         '<i class="descripcion_dami">Ingenieria en Informatica</i>',
                         '<i class="descripcion_dami">Tecnicatura en desarrollo Web</i>', 
-                        '<i class="descripcion_dami">Desarrollador Full Stack Trainee</i>',
+                        '<i class="descripcion_dami">Desarrollador Full Stack Junior</i>',
                         '<i class="descripcion_dami">Diseño</i>',
+                        '<i class="descripcion_dami">Testing</i>',
                 ],
         typeSpeed: 50, ///
         startDelay: 10,

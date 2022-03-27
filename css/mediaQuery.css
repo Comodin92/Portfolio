@@ -108,5 +108,8 @@
         align-items: center;
         justify-content: space-between;
     }
-    
+    .frontend img, .backend img, .diseno img {
+        padding: 10px;
+    }
+
 }
