@@ -78,4 +78,19 @@
     .presentacion_derecha p, .presentacion_derecha h2 span{
         color: aliceblue;
     }
+    .caja1, .caja2, .caja3, .caja4{
+        width: 60%;
+        height: 200px;
+        color: #1779ff;
+        background-color: aliceblue;
+        border-radius: 1px solid #fff;
+        margin: 10px;
+      }
+      .btn-primary {
+        height: 40px;
+        font-size: 15px;
+    }
+    .detalleTecnologias img{
+        width: 10%;
+    }
 }
