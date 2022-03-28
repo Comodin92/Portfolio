@@ -2,7 +2,7 @@
 
 Portfolio personal, actualmente se encuentra en desarrollo. 
 
-https://damiangutierrezdev.netlify.app/
+https://comodin92.github.io/Portfolio/
 
 Estimación: Se estima que el proyecto quedará terminado a principio de Mayo
 
